@@ -106,8 +106,6 @@ nav ul {
 .grid-container{
   display: grid;
   gap: 1rem;
-  grid-template-columns: 1fr;
-  grid-template-rows: 250px 100px 300px;
   justify-items: center; 
   align-items: center;
 }
