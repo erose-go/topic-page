@@ -30,14 +30,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 article {
-  width: 768px;
+  width: 90vw;
   line-height: 1.3;
   margin: 0 auto;
 }
 p {
   margin: auto;
   margin-left: 2rem;
-  margin-right: 1rem;
+  margin-right: 2rem;
 }
 nav, footer {
   background-color: #E6CBD5;
@@ -119,17 +119,6 @@ nav ul {
   margin: 16px;
 }
 
-@media screen and (min-width: 550px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (min-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(3, 1fr);
-  }
-}
-
 
 
 
@@ -200,6 +189,17 @@ nav ul {
   grid-area: number6;
 }
 
+
+@media screen and (min-width: 550px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (min-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
 
 /*--@media screen and (max-width: 768px) {
     header {width: 96%;}
