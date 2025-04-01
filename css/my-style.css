@@ -38,6 +38,8 @@ p {
   margin: auto;
   margin-left: 2rem;
   margin-right: 2rem;
+  padding-bottom: 16px;
+  padding-top: 16px;
 }
 nav, footer {
   background-color: #E6CBD5;
@@ -125,6 +127,7 @@ nav ul {
 .grid-container {
   display: grid;
   grid-gap: .1rem;
+  grid-template-columns: 1fr, 2fr, 1fr; grid-template-rows: max-content;
   grid-template-areas:
                       "number1 blog1 img1"
                       "img2 blog2 number2"
